@@ -47,7 +47,7 @@ API --> REP[Report Service]
 
 %% Database Node
 subgraph DBNODE[Database Node Linux]
-    DB[(PostgreSQL or Supabase)]
+    DB[(PostgreSQL)]
 end
 
 %% Redis Node
